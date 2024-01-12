@@ -1,0 +1,141 @@
+.mainContainer {
+  width: 100vw;
+  background-color: #3d556f;
+  display: flex;
+  justify-content: center;
+}
+.contentContainer {
+  width: 75vw;
+  text-align: left;
+  padding: 1vw;
+}
+.heading > h1 {
+  font-size: 2vw;
+  color: #fff;
+  font-weight: 700;
+}
+.searchBox {
+  display: flex;
+  justify-content: end;
+}
+.inputBox {
+  width: 25vw;
+  background-color: #ffff;
+}
+.inputBox > input {
+  width: 100%;
+  font-size: 1.2vw;
+  padding: 0.8vw;
+  outline: none;
+  border: none;
+  background: transparent;
+  box-sizing: border-box;
+}
+.cardContainer {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 2vw;
+}
+.cardBox {
+  width: 20vw;
+  position: relative;
+  cursor: pointer;
+}
+.avtarBox {
+  width: 5.5vw;
+  position: absolute;
+  border-radius: 50%;
+  top: 0.8vw;
+  border: 5px solid white;
+  left: 1vw;
+}
+.avtarBox > img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.nameContainer {
+  width: 100%;
+  background-color: #fe8df9;
+  padding: 0.5vw;
+  position: relative;
+  height: 4vw;
+}
+.contentBox {
+  width: 10vw;
+  position: absolute;
+  right: 2vw;
+  top: 0.5vw;
+}
+.heading {
+  font-size: 1.4vw;
+  font-weight: 600;
+  color: #fff;
+}
+.iconBox {
+  width: 10vw;
+  display: flex;
+  position: absolute;
+  top: 1.8vw;
+  align-items: center;
+}
+
+.iconBox > span {
+  font-size: 0.8vw;
+  color: #fff;
+  font-weight: 600;
+  margin-left: 0.3vw;
+}
+
+.iconBox2 {
+  width: 10vw;
+  display: flex;
+  position: absolute;
+  top: 3vw;
+  align-items: center;
+}
+
+.iconBox2 > span {
+  font-size: 0.8vw;
+  color: #fff;
+  font-weight: 600;
+  margin-left: 0.3vw;
+}
+
+.detailContainer {
+  width: 20vw;
+  background-color: #ffff;
+  padding: 0.5vw;
+  height: 4vw;
+  
+}
+.detales {
+ 
+  font-size: 0.8vw;
+  color: #b2b6b7;
+  margin-top: 1vw;
+  font-weight: 600;
+  width: 14vw;
+  padding: 0vw 1vw;
+  box-sizing: border-box;
+}
+.contactContainer {
+  width: 20vw;
+  background-color: #d8dcdf;
+  padding: 0.5vw;
+  height: 4vw;
+}
+.iconBox3 {
+  display: flex;
+  align-items: center;
+}
+
+.iconBox3 > span {
+  font-size: 0.8vw;
+  color: #a5aaae;
+  font-weight: 700;
+  margin-left: 0.3vw;
+  margin-bottom: 0.5vw;
+} 
