@@ -1,6 +1,7 @@
 import React from "react";
 import "../App.css";
 import { FaLocationDot } from "react-icons/fa6";
+import { Link } from 'react-router-dom';
 
 import { BsCake2 } from "react-icons/bs";
 import { IoIosCall } from "react-icons/io";
@@ -16,11 +17,13 @@ const Card = ({ data, searchUser }) => {
 
 
   return (
+   
     <div className="cardContainer">
       {filteredData.map((userData, id) => (
+       <Link  to={`/user/${userData.id}`} style={{ textDecoration: 'none'}} >
         <div key={id} className="cardBox">
           
-          {console.log("ppp", userData)}
+        
           <div className={`nameContainer ${userData.gender === "male" ?  "mbg" : "fbg"}`}>
             <div className="contentBox">
               <div className="nameheading">
@@ -61,8 +64,10 @@ const Card = ({ data, searchUser }) => {
             <img src={userData.image} alt="avtar" />
           </div>
         </div>
+        </Link>
       ))}
     </div>
+  
   );
 };
 

@@ -160,3 +160,107 @@
   margin-left: 0.3vw;
   margin-bottom: 0.5vw;
 } 
+
+.userDetailsContainer {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-color: #acc1ee;
+  align-items: center;
+}
+.userDetailBox {
+  width: 65%;
+  padding: 1vw;
+  position: relative;
+}
+.headerBox {
+  width: 100%;
+  background-color: black;
+  height: 10vw;
+}
+.profileImg {
+  width: 8vw;
+  position: absolute;
+  top: 3.8vw;
+  left: 4vw;
+  background: #fff;
+}
+.profileImg > img {
+  width: 100%;
+  object-fit: cover;
+} 
+.nameBox {
+  width: 25vw;
+  position: absolute;
+ font-size: 2vw;
+ font-weight: 600;
+  top: 5.2vw;
+  left: 13.5vw;
+
+  color: #ffff;
+}
+.iconBoxDetail {
+  margin-top: 0.3vw;
+  display: flex;
+  align-items: center;
+}
+.iconBoxDetail > span {
+  font-size: 1.3vw;
+  font-weight: 500;
+  margin-left: 0.5vw;
+}
+.aboutBox {
+  width: 100%;
+  background-color: #f8f9fa;
+  padding: 2vw;
+  box-sizing: border-box;
+
+}
+.headrTag > span {
+  font-size: 2vw;
+  color: black;
+  font-weight: 700;
+}
+.paraTxt {
+  width: 75%;
+  font-size: 1.3vw;
+  margin-top: 1vw;
+}
+.aboutBox2 {
+  width: 100%;
+  background-color: #6487aa;
+  padding: 2vw;
+  box-sizing: border-box;
+
+}
+.iconBox4 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5vw;
+}  
+
+.iconBox4 > span {
+  font-size: 1.3vw;
+  color: #fff;
+  font-weight: 700;
+  margin-left: 0.3vw;
+  margin-bottom: 0.5vw;
+}
+.mabg {
+  height: 10vw;
+  background-color: #6b46ca;
+
+}
+.febg {
+  background-color: #2eae56;
+  height: 10vw;
+}
+.loading {
+  font-size: 3vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+}
+
