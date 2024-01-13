@@ -37,17 +37,26 @@
   flex-wrap: wrap;
   justify-content: space-between;
   margin-top: 2vw;
+  gap: 1vw;
+}
+.cardHolder {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 .cardBox {
   width: 20vw;
   position: relative;
   cursor: pointer;
+
 }
+
 .avtarBox {
   width: 5.5vw;
   position: absolute;
   border-radius: 50%;
-  top: 0.8vw;
+  top: 0.5vw;
   border: 5px solid white;
   left: 1vw;
 }
@@ -62,6 +71,18 @@
   padding: 0.5vw;
   position: relative;
   height: 4vw;
+}
+.fbg {
+  background-color: #fe8df9;
+}
+.mbg {
+  background-color: #5dade8;
+}
+.nameheading {
+  width: 12vw;
+  font-weight: 600;
+  color: #fff;
+  font-size: 1.4vw;
 }
 .contentBox {
   width: 10vw;
