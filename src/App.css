@@ -59,6 +59,7 @@
   top: 0.5vw;
   border: 5px solid white;
   left: 1vw;
+  background-color: #fff;
 }
 .avtarBox > img {
   width: 100%;
@@ -212,7 +213,7 @@
 }
 .aboutBox {
   width: 100%;
-  background-color: #f8f9fa;
+  background-color: #cdc290;
   padding: 2vw;
   box-sizing: border-box;
 
@@ -263,4 +264,7 @@
   align-items: center;
   font-weight: 700;
 }
-
+.nameTg {
+  color: black;
+  font-weight: 700;
+}

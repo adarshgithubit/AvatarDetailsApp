@@ -65,6 +65,7 @@ const navigate = useNavigate()
             <span>About</span>
           </div>
           <div className="paraTxt">
+            Hello my name is <span className="nameTg">{userDetails.firstName} {userDetails.lastName}</span> 
             Welcome to our platform dedicated to celebrating and empowering men
             from all walks of life. In this space, we embrace the strength,
             resilience, and diverse experiences that define the essence of being
